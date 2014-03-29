@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class = "col-md-1">
+</div>
+
+<div class = "col-md-1">
+	<div class="row">
+	</div>
+	
+</div>
+
+<div class="col-md-1">
+</div>
+
+<div class="col-md-6">
+
+	<section class= "content" >
+
+		<ul class="entries">
+		
+		  {% for post in site.posts %}
+			
+			 <a href="{{ post.url }}index.html"> 
+		      
+		      <p>{{ post.title }}</p> 
+
+		      <br>
+		      
+		    </a>
+
+		  {% endfor %}	
+
+		</ul> 	
+
+	</section>	
+	
+</div>
+	
+<div class="col-md-3">
+
+
+	<p class="fixed smallText">
+		<b>About</b>:  Information 
+
+</div>
+		
+</div>

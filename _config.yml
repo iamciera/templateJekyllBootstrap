@@ -1,0 +1,11 @@
+name: 
+description: 
+baseurl: ""
+paginate: 20
+markdown: rdiscount
+permalink: /blog/:year/:month/:day/:title/
+pygments: true
+analytics :
+  provider : google 
+  google : 
+      tracking_id : 
